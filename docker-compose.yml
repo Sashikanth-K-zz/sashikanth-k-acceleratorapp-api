@@ -1,0 +1,12 @@
+version: "3"
+services:
+  api:
+    image: api
+    build: .
+    networks:
+      - backend
+    ports:
+      - "5000:5000"
+networks:
+  backend:
+    driver: bridge
