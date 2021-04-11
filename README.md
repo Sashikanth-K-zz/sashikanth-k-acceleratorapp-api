@@ -29,7 +29,7 @@ GET  /directory
 
 queryParams:
 
-    - directoryPath, (required)
+    - directoryPath, (required absolute path)
     - page, (default = 1)
     - limit (default = 10)
 
