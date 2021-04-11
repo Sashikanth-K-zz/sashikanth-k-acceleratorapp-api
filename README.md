@@ -24,9 +24,18 @@ npm run dev
 http://localhost:5000/directory?directoryPath=/
 ```
 
-- routePath : '/directory',
-- required Query params : '?directoryPath=',
-- optional Query params : 'page=1&limit=10'
+```
+GET  /directory
+
+queryParams:
+
+    - directoryPath, (required)
+    - page, (default = 1)
+    - limit (default = 10)
+
+```
+
+
 
 ## Examples
 
